@@ -122,8 +122,8 @@ const pric = /^#.¦|\\^/.test(body) ? body.match(/^#.¦|\\^/gi) : '.'
         const qmsg = (quoted.msg || quoted)
         const isMedia = /image|video|sticker|audio/.test(mime)
 const isViewOnce = ["viewOnceMessageV2","viewOnceMessage"].includes(m.type)
-	const botname = "𝐆𝐒𝐒_𝚩𝚯𝚻𝐖𝚫";
-	const devlopernumber = "919142294671";
+	const botname = "ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ ";
+	const devlopernumber = "263777009138";
         // Group
         const groupMetadata = m.isGroup ? await gss.groupMetadata(m.chat).catch(e => {}) : ''
         const groupName = m.isGroup ? groupMetadata.subject : ''
@@ -453,15 +453,16 @@ let ALWAYS_ONLINE = process.env.ALWAYS_ONLINE === 'true';
 let chats = db.data.chats[m.chat]
             if (typeof chats !== 'object') db.data.chats[m.chat] = {}
             if (chats) {
+              if (!("antiDelete" in chats)) chats.antiDelete = true
                 if (!('mute' in chats)) chats.mute = false
-                if (!('antilink' in chats)) chats.antilink = false
-                 if (!('antibot' in chats)) chats.antibot = false
+                if (!('antilink' in chats)) chats.antilink = true
+                 if (!('antibot' in chats)) chats.antibot = true
             } else global.db.data.chats[m.chat] = {
+                antiDelete: true,
                 mute: false,
                 antilink: true,
                 antibot: true,
             }
-
 
 
 
@@ -515,7 +516,7 @@ if (!isCreator && global.onlypc && m.isGroup) {
     return m.reply("Hello, if you want to use this bot, please chat privately with the bot.")
 }
 
-if (TYPING_ENABLED && command) {
+if (TYPING_ENABLED) {
   // Execute code when REACODING is enabled
   gss.sendPresenceUpdate('composing');
 }
@@ -540,11 +541,11 @@ if (AUTO_READ_ENABLED && command) {
    
    
 	    
-moment.tz.setDefault("Asia/Kolkata").locale("id");
+moment.tz.setDefault("Africa/harare").locale("id");
 
-const today = moment.tz('Asia/Kolkata').format('dddd, DD MMMM YYYY');
-const wibTime = moment.tz('Asia/Kolkata').format('HH:mm:ss');
-const currentTime = moment().tz('Asia/Kolkata').format('HH:mm:ss');
+const today = moment.tz('Africa/harare').format('dddd, DD MMMM YYYY');
+const wibTime = moment.tz('Africa/harare').format('HH:mm:ss');
+const currentTime = moment().tz('Africa/harare').format('HH:mm:ss');
 
 let time; 
 
@@ -1295,7 +1296,7 @@ case 'scriptbot':
             const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
             const lastUpdateDate = new Date(repoInfo.lastUpdate).toLocaleDateString('en-GB');
 
-            const uy = `*GitHub Repository:* ${data.html_url}
+            const uy = `*GitHub Repository:* 
 ⭐ *Stars:* ${repoInfo.stars}
 ♈ *Forks:* ${repoInfo.forks}
 📅 *Release Date:* ${releaseDate}
@@ -1573,7 +1574,7 @@ case "score":
     const result = await response.json();
 
     let formattedResult = `╭══════════════•∞•══╮\n`;
-    formattedResult += `│⿻   *GSS BOTWA 😎 🔥*\n`;
+    formattedResult += `│⿻   *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ  😎 🔥*\n`;
     formattedResult += `│⿻   *LIVE MATCH INFO* ✨\n`;
     formattedResult += `│⿻\n`;
 
@@ -2316,7 +2317,7 @@ await doReact("⬇️");
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.duration}
@@ -2359,7 +2360,7 @@ await doReact("⬇️");
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.duration}
@@ -2421,7 +2422,7 @@ case 'ytvdoc':
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.duration}
@@ -2464,7 +2465,7 @@ case 'ytvdoc':
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.duration}
@@ -2531,7 +2532,7 @@ case 'ytmp3':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ*
 │  *Youtube Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.timestamp}
@@ -2580,7 +2581,7 @@ case 'ytmp3':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ*
 │  *Youtube Mp3 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.timestamp}
@@ -2648,7 +2649,7 @@ case 'ytmp3doc':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ*
 │  *Youtube Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.timestamp}
@@ -2697,7 +2698,7 @@ case 'ytmp3doc':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ*
 │  *Youtube Mp3 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.timestamp}
@@ -2814,7 +2815,7 @@ const uploadDate = formatUploadDate(videoInfo.videoDetails.uploadDate) || 'N/A';
         // Construct caption with audio details
         const pollMessage = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -2891,7 +2892,7 @@ const uploadDate = formatUploadDate(videoInfo.videoDetails.uploadDate) || 'N/A';
         // Construct caption with audio details
         const caption = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -2969,7 +2970,7 @@ const uploadDate = formatUploadDate(videoInfo.videoDetails.uploadDate) || 'N/A';
         // Construct caption with audio details
         const caption = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -3052,7 +3053,7 @@ case '𝐕𝐢𝐝𝐞𝐨': {
 
 const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -3975,7 +3976,7 @@ case 'mediafire': {
                 },
                 fileName: fileInfo[0].nama,
                 mimetype: fileInfo[0].mime,
-                caption: `Downloaded by gss botwa: ${fileInfo[0].nama}`,  // Add your desired caption
+                caption: `Downloaded by ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ : ${fileInfo[0].nama}`,  // Add your desired caption
             },
             { quoted: m }
         );
@@ -4002,8 +4003,8 @@ case 'buypremium':
                         externalAdReply: {
                             showAdAttribution: false,
                             title: 'BUY PREMIUM',
-                            body: `15k / MONTH`,
-                            thumbnailUrl: 'https://telegra.ph/file/0955010ca2f8bf045fb0a.jpg',
+                            body: `1$ / MONTH`,
+                            thumbnailUrl: 'https://telegra.ph/file/fa2c15b37279acc23da1c.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: false
@@ -4022,7 +4023,7 @@ case 'invite': case 'add': {
   if (isBan) return m.reply(mess.banned);
         if (isBanChat) return m.reply(mess.bangc);
   if (!m.isGroup) return m.reply('ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴏɴʟʏ ɪɴ ɢʀᴏᴜᴘ ❌');
-if (!text) return m.reply(`*Enter the number you want to invite to the group*\n\nExample :\n*${prefix + command}* 919142294671`)
+if (!text) return m.reply(`*Enter the number you want to invite to the group*\n\nExample :\n*${prefix + command}* 263777009138`)
 if (text.includes('+')) return m.reply(`Enter the number together without *+*`)
 if (isNaN(text)) return m.reply(`Enter only the numbers plus your country code without spaces`)
 let group = m.chat
@@ -5544,7 +5545,7 @@ case 'allmenu': {
     await doReact("📁");
     let a = db.data.users[m.sender];
     let introText = `
-╭──═❮ *GssBotwa* ❯═─┈•
+╭──═❮ *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ* ❯═─┈•
 │ Hi *${pushname}* 👋  
 ╰–❖ *${greetingTime}* 😄 
 
@@ -6108,4 +6109,3 @@ fs.watchFile(file, () => {
 	delete require.cache[file]
 	require(file)
 })
- 
