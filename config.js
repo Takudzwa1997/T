@@ -26,7 +26,7 @@ global.ownername = 'tαkudzwα jσnαthαn';
 global.owner = ['263777009138'];
 global.premium = ['263777009138'];
 global.packname = '𝚜𝚝𝚒𝚌𝚔𝚎𝚛 𝚋𝚢';
-global.author = 'ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ';
+global.author = '꫞ ₢hᷝiᷧbᷟhaᷟṛᷢḗṫᶐᥧ-MD-';
 global.sessionName = 'session';
 global.prefa = ['', '!', '.'];
 global.sp = '✪';
@@ -36,7 +36,7 @@ global.mess = {
     success: '`✓ Success`',
     admin: '`This feature is only for group admins`',
     botAdmin: '`I am not an admin!`',
-    owner: '`You are not my owner`',
+    owner: '`You are not my owner my owner is ꫞ ₢hᷝiᷧbᷟhaᷟṛᷢḗṫᶐᥧ-MD`',
     group: '`You can use this command only in groups ❌`',
     private: '`Feature is used only for private chats!`',
     bot: '`Bot number user special features`',
