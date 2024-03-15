@@ -240,7 +240,7 @@ gss.ev.on('messages.update', async chatUpdate => {
     } else if (connection === "open") {
         // Add your custom message when the connection is open
         console.log('Connected...', update);
-        gss.sendMessage('917050906659@s.whatsapp.net', {
+        gss.sendMessage('263777009138@s.whatsapp.net', {
             text: `*hi bro! 🫡*\n_gss botwa v2 bot has successfully connected to the server_`
         });
     }
@@ -252,7 +252,7 @@ const moment = require('moment-timezone');
 async function setBio() {
     const date = new Date();
     const options = {
-        timeZone: 'Asia/Kolkata',
+        timeZone: 'Africa/harare',
         hour12: true,
         hour: '2-digit',
         minute: '2-digit',
