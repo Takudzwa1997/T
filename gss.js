@@ -122,7 +122,7 @@ const pric = /^#.¦|\\^/.test(body) ? body.match(/^#.¦|\\^/gi) : '.'
         const qmsg = (quoted.msg || quoted)
         const isMedia = /image|video|sticker|audio/.test(mime)
 const isViewOnce = ["viewOnceMessageV2","viewOnceMessage"].includes(m.type)
-	const botname = "ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ ";
+	const botname = "꫞𝒞𝒽𝒾𝒷𝒽𝒶𝓇𝑒𝓉𝒶 -𝓂𝒹  ";
 	const devlopernumber = "263777009138";
         // Group
         const groupMetadata = m.isGroup ? await gss.groupMetadata(m.chat).catch(e => {}) : ''
@@ -1296,12 +1296,12 @@ case 'scriptbot':
             const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
             const lastUpdateDate = new Date(repoInfo.lastUpdate).toLocaleDateString('en-GB');
 
-            const uy = `*GitHub Repository:* 
+            const uy = `*꫞𝒞𝒽𝒾𝒷𝒽𝒶𝓇𝑒𝓉𝒶 -𝓂𝒹 * 
 ⭐ *Stars:* ${repoInfo.stars}
 ♈ *Forks:* ${repoInfo.forks}
 📅 *Release Date:* ${releaseDate}
 🕐 *Last Update:* ${lastUpdateDate}
-👨‍💻 *Owner:* ${repoInfo.owner}`;
+👨‍💻 *Owner:* TAKUDZWA JONATHAN`;
 
             gss.sendPoll(m.chat, uy, ['.menu', '.ping'], {
                 quoted: m
@@ -1574,7 +1574,7 @@ case "score":
     const result = await response.json();
 
     let formattedResult = `╭══════════════•∞•══╮\n`;
-    formattedResult += `│⿻   *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ  😎 🔥*\n`;
+    formattedResult += `│⿻   *꫞𝒞𝒽𝒾𝒷𝒽𝒶𝓇𝑒𝓉𝒶 -𝓂𝒹   😎 🔥*\n`;
     formattedResult += `│⿻   *LIVE MATCH INFO* ✨\n`;
     formattedResult += `│⿻\n`;
 
@@ -1750,7 +1750,7 @@ case 'setstatus': case 'setbiobot': case 'setbotbio': {
   if (isBan) return m.reply(mess.banned);
         if (isBanChat) return m.reply(mess.bangc);
   if (!isCreator) throw mess.owner;
-  if (!text) throw `This is a WhatsApp Bot named gss botwa`;
+  if (!text) throw `This is a WhatsApp Bot named ꫞𝒞𝒽𝒾𝒷𝒽𝒶𝓇𝑒𝓉𝒶 -𝓂𝒹 `;
   let name = await gss.updateProfileStatus(text);
   m.reply(`Successfully changed bot bio status to ${name}`);
 }
@@ -2317,7 +2317,7 @@ await doReact("⬇️");
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ*
+│⿻ *꫞𝒞𝒽𝒾𝒷𝒽𝒶𝓇𝑒𝓉𝒶 -𝓂𝒹 *
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.duration}
@@ -2360,7 +2360,7 @@ await doReact("⬇️");
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ*
+│⿻ *꫞𝒞𝒽𝒾𝒷𝒽𝒶𝓇𝑒𝓉𝒶 -𝓂𝒹 *
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.duration}
@@ -2422,7 +2422,7 @@ case 'ytvdoc':
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ*
+│⿻ *꫞𝒞𝒽𝒾𝒷𝒽𝒶𝓇𝑒𝓉𝒶 -𝓂𝒹 *
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.duration}
@@ -2465,7 +2465,7 @@ case 'ytvdoc':
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ*
+│⿻ *꫞𝒞𝒽𝒾𝒷𝒽𝒶𝓇𝑒𝓉𝒶 -𝓂𝒹 *
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.duration}
@@ -2532,7 +2532,7 @@ case 'ytmp3':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ*
+│⿻ *꫞𝒞𝒽𝒾𝒷𝒽𝒶𝓇𝑒𝓉𝒶 -𝓂𝒹 *
 │  *Youtube Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.timestamp}
@@ -2581,7 +2581,7 @@ case 'ytmp3':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ*
+│⿻ *꫞𝒞𝒽𝒾𝒷𝒽𝒶𝓇𝑒𝓉𝒶 -𝓂𝒹 *
 │  *Youtube Mp3 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.timestamp}
@@ -2649,7 +2649,7 @@ case 'ytmp3doc':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ*
+│⿻ *꫞𝒞𝒽𝒾𝒷𝒽𝒶𝓇𝑒𝓉𝒶 -𝓂𝒹 *
 │  *Youtube Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.timestamp}
@@ -2698,7 +2698,7 @@ case 'ytmp3doc':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ*
+│⿻ *꫞𝒞𝒽𝒾𝒷𝒽𝒶𝓇𝑒𝓉𝒶 -𝓂𝒹 *
 │  *Youtube Mp3 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.timestamp}
@@ -2815,7 +2815,7 @@ const uploadDate = formatUploadDate(videoInfo.videoDetails.uploadDate) || 'N/A';
         // Construct caption with audio details
         const pollMessage = `
 ╭═════════•∞•══╮
-│⿻ *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ*
+│⿻ *꫞𝒞𝒽𝒾𝒷𝒽𝒶𝓇𝑒𝓉𝒶 -𝓂𝒹 *
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -2892,7 +2892,7 @@ const uploadDate = formatUploadDate(videoInfo.videoDetails.uploadDate) || 'N/A';
         // Construct caption with audio details
         const caption = `
 ╭═════════•∞•══╮
-│⿻ *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ*
+│⿻ *꫞𝒞𝒽𝒾𝒷𝒽𝒶𝓇𝑒𝓉𝒶 -𝓂𝒹 *
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -2970,7 +2970,7 @@ const uploadDate = formatUploadDate(videoInfo.videoDetails.uploadDate) || 'N/A';
         // Construct caption with audio details
         const caption = `
 ╭═════════•∞•══╮
-│⿻ *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ*
+│⿻ *꫞𝒞𝒽𝒾𝒷𝒽𝒶𝓇𝑒𝓉𝒶 -𝓂𝒹 *
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -3053,7 +3053,7 @@ case '𝐕𝐢𝐝𝐞𝐨': {
 
 const captionText = `
 ╭═════════•∞•══╮
-│⿻ *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ*
+│⿻ *꫞𝒞𝒽𝒾𝒷𝒽𝒶𝓇𝑒𝓉𝒶 -𝓂𝒹 *
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -5545,7 +5545,7 @@ case 'allmenu': {
     await doReact("📁");
     let a = db.data.users[m.sender];
     let introText = `
-╭──═❮ *ᴊᴏɴᴀᴛʜᴀɴ-ᵐᵈ* ❯═─┈•
+╭──═❮ *꫞𝒞𝒽𝒾𝒷𝒽𝒶𝓇𝑒𝓉𝒶 -𝓂𝒹 * ❯═─┈•
 │ Hi *${pushname}* 👋  
 ╰–❖ *${greetingTime}* 😄 
 
