@@ -47,8 +47,8 @@ global.link = 'https://whatsapp.com/channel/0029VaRWMtzHrDZcxiKyZW2u'
 global.linkGroup = 'https://chat.whatsapp.com/FQoTtfxVujzGq8Wp97NxCk'
 global.autoswview = process.env.AUTO_STATUS_SEEN || "true",
 global.typemenu = 'v1' // 'v1' => 'v5'
-global.onlygroup = false // onlygroup
-global.onlypc = false
+global.onlygroup = true // onlygroup
+global.onlypc = true
 global.limitawal = {
     premium: 'Infinity',
     free: 10
