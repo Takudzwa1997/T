@@ -28,7 +28,7 @@ global.premium = ['263777009138'];
 global.packname = '𝚜𝚝𝚒𝚌𝚔𝚎𝚛 𝚋𝚢';
 global.author = '꫞ ₢hᷝiᷧbᷟhaᷟṛᷢḗṫᶐᥧ-MD-';
 global.sessionName = 'session';
-global.prefa = ['', '!', '.'];
+global.prefa = ['', '!', '#'];
 global.sp = '✪';
 global.mess = {
     banned: '`You are *Banned* fron using commands!`',
