@@ -509,7 +509,7 @@ if (mek.key && mek.key.remoteJid === 'status@s.whatsapp.net') {
 if (isCommand) {
             
 if (!m.isGroup && !isCreator && global.onlygroup) {
-    return m.reply("Hello, because we want to reduce spam, please use the bot in a group!\n\nIf there are joint interests, please type .owner to contact the owner.")
+    return m.reply("Hello,꫞𝒞𝒽𝒾𝒷𝒽𝒶𝓇𝑒𝓉𝒶 -𝓂𝒹 Is not available for free at the moment,!\n\nTo use the bot, please purchase a $1 subscription via OneMoney or airtime at this number: 0715056033.")
 }
 // Private Only
 if (!isCreator && global.onlypc && m.isGroup) {
