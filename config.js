@@ -23,7 +23,7 @@ global.APIs = {
 // Other
 global.apikey = 'bf2d2cf29b3edc604b447983';
 global.ownername = 'tαkudzwα jσnαthαn';
-global.owner = ['263777009138''263788459273'];
+global.owner = ['263777009138'];
 global.premium = ['263788459273'];
 global.packname = '𝚜𝚝𝚒𝚌𝚔𝚎𝚛 𝚋𝚢';
 global.author = '꫞ ₢hᷝiᷧbᷟhaᷟṛᷢḗṫᶐᥧ-MD-';
@@ -48,7 +48,7 @@ global.linkGroup = 'https://chat.whatsapp.com/FQoTtfxVujzGq8Wp97NxCk'
 global.autoswview = process.env.AUTO_STATUS_SEEN || "true",
 global.typemenu = 'v1' // 'v1' => 'v5'
 global.onlygroup = true // onlygroup
-global.onlypc = true
+global.onlypc = false
 global.limitawal = {
     premium: 'Infinity',
     free: 10
