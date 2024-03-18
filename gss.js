@@ -513,7 +513,7 @@ if (!m.isGroup && !isCreator && global.onlygroup) {
 }
 // Private Only
 if (!isCreator && global.onlypc && m.isGroup) {
-    return m.reply("Hello, if you want to use this bot, please chat privately with the bot.")
+    return m.reply("Hi *${pushname}* 👋 ${botname} is not available in your region at the meantime you can contact my ${ownername} on Facebook messenger for more info 😊")
 }
 
 if (TYPING_ENABLED) {
