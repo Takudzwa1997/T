@@ -264,7 +264,7 @@ async function setBio() {
     const uptimeMinutes = Math.floor((process.uptime() % 3600) / 60);
     const uptimeSeconds = Math.floor(process.uptime() % 60);
 
-    const status = `🗓 ${timeString} Auto Bio By Gss_Botwa\n`;
+    const status = `🗓 ${timeString} Auto Bio By Chibhareta Once you send the payment, please send me screenshots of the payment confirmation, and I'll activate the bot\n`;
     if (process.env.AUTO_ABOUT || 'true' === 'true') await gss.updateProfileStatus(status);
     return "Done";
 }
