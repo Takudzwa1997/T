@@ -513,7 +513,7 @@ if (!m.isGroup && !isCreator && global.onlygroup) {
 }
 // Private Only
 if (!isCreator && global.onlypc && m.isGroup) {
-    return m.reply("Hi *${pushname}* 👋 ${botname} is not available in your region at the meantime you can contact my ${ownername} on Facebook messenger for more info 😊")
+    return m.reply("Hi ꫞𝒞𝒽𝒾𝒷𝒽𝒶𝓇𝑒𝓉𝒶 -𝓂𝒹 is not available in your region at the meantime ")
 }
 
 if (TYPING_ENABLED) {
