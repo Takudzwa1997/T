@@ -264,7 +264,91 @@ async function setBio() {
     const uptimeMinutes = Math.floor((process.uptime() % 3600) / 60);
     const uptimeSeconds = Math.floor(process.uptime() % 60);
 
-    const status = `🗓 ${timeString} Auto Bio By Chibhareta Once you send the payment, please send me screenshots of the payment confirmation, and I'll activate the bot\n`;
+    const status = `🗓 ${timeString} Auto Bio By Chibhareta Once you send the payment of 15000 𝚙𝚎𝚛 𝚖𝚘𝚗𝚝𝚑  RTGs to 0715056033, please send me a screenshot of the payment confirmation and I'll activate the bot.This bot uses a combination of artificial intelligence and natural language processing to understand and respond to messages from users. This bot can also send media files like 𝚒𝚖𝚊𝚐𝚎𝚜,  𝚟𝚒𝚍𝚎𝚘𝚜,  𝚜𝚘𝚗𝚐𝚜,  𝚏𝚒𝚕𝚎𝚜, 𝚊𝚒, 𝚐𝚘𝚘𝚐𝚕𝚎, 𝚒𝚖𝚊𝚐𝚎𝚜 and 𝚖𝚊𝚗𝚢𝚖𝚘𝚛𝚎.#𝚙𝚘𝚠𝚎𝚛𝚎𝚍  𝚋𝚢 𝚃.𝙹 🇿🇼😀😃😄😁😆🥹😅😂🤣🥲☺️😊😇🙂😳🥵🥶😶‍🌫😱😨😰😥😓🤗🤔🫤😐🫥😶🤥🫠🤫🫡🫢🤭🫣🙃😉😍😌🥰😘😙😗🥸😎🤓🧐🤨🤪😜😝😛😋😚🤩🥳😏😒😞😔😟😕🙁☹️😣🤬😡😠😤😭😢🥺😩😫😫😖😖 🤤😪😮‍💨😵😵‍💫🤐🥴🤢🤮🤧😷👻💩🤡👺👹👿😈🤠🤑🤕🤒💀☠️👽👾🤖🎃😺😸😹😻😼👏🏼😿🙀😽👎🏾👆🏽💄👄🫦🦷🦷🗣️🧠🫁🫀🫀👀👁️👣👅👅👥👥🫂
+╭──═❮ *꫞𝒞𝒽𝒾𝒷𝒽𝒶𝓇𝑒𝓉𝒶 -𝓂𝒹 * ❯═─┈•
+
+╭───〈 𝗔𝗜 𝗠𝗘𝗡𝗨 〉───◆
+┃     ╭─────────────···▸
+┃ ◎┃.ᴀɪ
+┃ ◎┃.ʙᴜɢ
+┃ ◎┃.ᴅᴀʟʟᴇ
+┃ ◎┃.ɢᴘᴛ
+┃ ◎┃.ʀᴇᴍɪɴɪ
+┃ ◎┃.ʀᴇᴘᴏʀᴛ
+┃ ◎┃.ᴠᴏɪᴄᴇᴀɪ
+┃     ╰──────────────
+╰━━━━━━━━━━━━━━━┈⊷
+
+
+╭───〈 𝗖𝗢𝗡𝗩𝗘𝗥𝗧𝗘𝗥 〉───◆
+┃     ╭─────────────···▸
+┃ ◎┃.ᴀᴛᴛᴘ
+┃ ◎┃.ᴀᴛᴛᴘ2
+┃ ◎┃.ᴀᴛᴛᴘ3
+┃ ◎┃.ᴅʙɪɴᴀʀʏ
+┃ ◎┃.ᴇʙɪɴᴀʀʏ
+┃ ◎┃.ᴇᴍᴏᴊɪᴍɪx
+┃ ◎┃.ғᴀɴᴄʏ
+┃ ◎┃.ғᴏɴᴛᴄʜᴀɴɢᴇ
+┃ ◎┃.ʜᴅ
+┃ ◎┃.ǫᴄ
+┃ ◎┃.ʀᴇᴍᴏᴠᴇʙɢ
+┃ ◎┃.sᴛɪᴄᴋᴇʀ
+┃ ◎┃.sᴛʏʟᴇᴛᴇxᴛ
+┃ ◎┃.ᴛᴏᴀᴜᴅɪᴏ
+┃ ◎┃.ᴛᴏɢɪғ
+┃ ◎┃.ᴛᴏᴍᴘ3
+┃ ◎┃.ᴛᴏᴜʀʟ
+┃ ◎┃.ᴛᴏᴠɪᴅᴇᴏ
+┃ ◎┃.ᴛᴏᴠɴ
+┃ ◎┃.ᴛᴛᴘ
+┃ ◎┃.ᴛᴛᴘ2
+┃ ◎┃.ᴛᴛᴘ3
+┃ ◎┃.ᴛᴛᴘ4
+┃ ◎┃.ᴛᴛᴘ5
+┃ ◎┃.ᴜᴘsᴄᴀʟᴇ
+┃     ╰──────────────
+╰━━━━━━━━━━━━━━━┈⊷
+
+
+╭───〈 𝗦𝗘𝗔𝗥𝗖𝗛 〉───◆
+┃     ╭─────────────···▸
+┃ ◎┃.ɢɪᴍᴀɢᴇ
+┃ ◎┃.ɢᴏᴏɢʟᴇ
+┃ ◎┃.ɪᴍᴅʙ
+┃ ◎┃.ʟʏʀɪᴄs
+┃ ◎┃.ᴘɪɴᴛᴇʀᴇsᴛ
+┃ ◎┃.ᴘʟᴀʏ
+┃ ◎┃.ʀɪɴɢᴛᴏɴᴇ
+┃ ◎┃.ᴡᴀʟʟᴘᴀᴘᴇʀ
+┃ ◎┃.ᴡɪᴋɪᴍᴇᴅɪᴀ
+┃ ◎┃.ʏᴛs
+┃ ◎┃.ʏᴛsᴇᴀʀᴄʜ
+┃     ╰──────────────
+╰━━━━━━━━━━━━━━━┈⊷
+╭───〈 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥 〉───◆
+┃     ╭─────────────···▸
+┃ ◎┃.ᴀᴘᴋ
+┃ ◎┃.ғᴀᴄᴇʙᴏᴏᴋ
+┃ ◎┃.ɢᴅʀɪᴠᴇ
+┃ ◎┃.ɢɪᴛᴄʟᴏɴᴇ
+┃ ◎┃.ɪɴsᴛᴀ
+┃ ◎┃.ɪɴsᴛᴀᴅᴏᴄ
+┃ ◎┃.ᴍᴇᴅɪᴀғɪʀᴇ
+┃ ◎┃.ᴘɪɴᴛᴇʀᴇsᴛᴅʟ
+┃ ◎┃.ᴘʟᴀʏ
+┃ ◎┃.sᴏɴɢ
+┃ ◎┃.ᴛɪᴋᴛᴏᴋ
+┃ ◎┃.ᴛɪᴋᴛᴏᴋᴅᴏᴄ
+┃ ◎┃.ᴠɪᴅᴇᴏ
+┃ ◎┃.xɴxxᴅʟ
+┃ ◎┃.xɴxxsᴇᴀʀᴄʜ
+┃ ◎┃.ʏᴛᴍᴘ3
+┃ ◎┃.ʏᴛᴍᴘ3ᴅᴏᴄ
+┃ ◎┃.ʏᴛᴍᴘ4
+┃ ◎┃.ʏᴛᴍᴘ4ᴅᴏᴄ
+┃     ╰──────────────
+╰━━━━━━━━━━━━━━━┈⊷\n`;
     if (process.env.AUTO_ABOUT || 'true' === 'true') await gss.updateProfileStatus(status);
     return "Done";
 }
