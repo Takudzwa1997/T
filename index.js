@@ -264,7 +264,7 @@ async function setBio() {
     const uptimeMinutes = Math.floor((process.uptime() % 3600) / 60);
     const uptimeSeconds = Math.floor(process.uptime() % 60);
 
-    const status = `🗓 ${timeString} Auto Bio By Chibhareta Once you send the payment of 15000 𝚙𝚎𝚛 𝚖𝚘𝚗𝚝𝚑  RTGs to 0715056033, please send me a screenshot of the payment confirmation and I'll activate the bot.This bot uses a combination of artificial intelligence and natural language processing to understand and respond to messages from users. This bot can also send media files like 𝚒𝚖𝚊𝚐𝚎𝚜,  𝚟𝚒𝚍𝚎𝚘𝚜,  𝚜𝚘𝚗𝚐𝚜,  𝚏𝚒𝚕𝚎𝚜, 𝚊𝚒, 𝚐𝚘𝚘𝚐𝚕𝚎, 𝚒𝚖𝚊𝚐𝚎𝚜 and 𝚖𝚊𝚗𝚢𝚖𝚘𝚛𝚎.
+    const status = `🗓 ${timeString} 🗓 09:02:01 am Auto Bio By Chibhareta Once you send the payment, please send me screenshots of the payment confirmation, and I'll activate
 
     if (process.env.AUTO_ABOUT || 'true' === 'true') await gss.updateProfileStatus(status);
     return "Done";
